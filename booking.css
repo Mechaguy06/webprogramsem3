@@ -89,6 +89,64 @@ h1 {
     background-color: #0056b3;
 }
 
+/* Updated styling for the booking form to make it full width */
+#booking-form {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#booking-form fieldset {
+    border: none;
+    padding: 0;
+}
+
+#booking-form legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#booking-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+#booking-form input,
+#booking-form textarea,
+#booking-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#booking-form textarea {
+    resize: vertical;
+}
+
+#booking-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#booking-form button:hover {
+    background-color: #0056b3;
+}
+
 /* Optional: Basic responsive adjustments */
 @media (max-width: 768px) {
     body {
